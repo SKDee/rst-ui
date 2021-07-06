@@ -5,3 +5,10 @@ dist
 .idea
 .history
 .DS_Store
+
+# umi
+.umi
+.umi-production
+.env.local
+
+doc-site
