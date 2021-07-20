@@ -11,4 +11,9 @@ dist
 .umi-production
 .env.local
 
-doc-site
+# production
+/build
+/dist
+/lib
+/doc-site
+/types

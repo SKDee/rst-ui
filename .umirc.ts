@@ -10,7 +10,7 @@ if (process.env.SITE_BUILD_ENV === 'PREVIEW') {
 }
 
 export default defineConfig({
-  title: 'Rst UI', // 站点名称
+  title: 'Rut UI', // 站点名称
   mode: 'site',
   outputPath: 'doc-site', // 输出文件夹
   exportStatic: {}, // 后续会部署到 github pages 直接全部生成静态页面 不走前端路由

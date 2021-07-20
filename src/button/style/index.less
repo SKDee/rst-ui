@@ -1,0 +1,151 @@
+@popupPrefix: rt_button;
+
+.@{popupPrefix} {
+  padding: 6px 18px;
+  margin: 4px;
+	border: 1px solid transparent;  //自定义边框
+	outline: none;    //消除默认点击蓝色边框效果
+  cursor: pointer;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px #0000000b;
+}
+
+.@{popupPrefix}-primary{
+  color: #fff;
+  background: #1890ff;
+  border-color: #1890ff;
+  &:hover{
+    background: #66b1ff;
+    border-color: #66b1ff;
+    color: #fff;
+  }
+}
+
+.@{popupPrefix}-success{
+  color: #fff;
+  background-color: #67c23a;
+  border-color: #67c23a;
+  &:hover{
+    background: #85ce61;
+    border-color: #85ce61;
+    color: #fff;
+  }
+}
+
+.@{popupPrefix}-info{
+  color: #fff;
+  background-color: #909399;
+  border-color: #909399;
+  &:hover{
+    background: #a6a9ad;
+    border-color: #a6a9ad;
+    color: #fff;
+  }
+}
+
+.@{popupPrefix}-warning{
+  color: #fff;
+  background-color: #e6a23c;
+  border-color: #e6a23c;
+  &:hover{
+    background: #ebb563;
+    border-color: #ebb563;
+    color: #fff;
+  }
+}
+
+.@{popupPrefix}-danger{
+  color: #fff;
+  background-color: #f56c6c;
+  border-color: #f56c6c;
+  &:hover{
+    background: #f78989;
+    border-color: #f78989;
+    color: #fff;
+  }
+}
+
+.@{popupPrefix}-text{
+  color: #000000d9;
+  background: 0 0;
+  border-color: transparent;
+  box-shadow: none;
+  &:hover{
+    color: #000000d9;
+    background: rgba(0,0,0,.05);
+    border-color: transparent;
+  }
+}
+
+.@{popupPrefix}-disabled{
+  cursor: not-allowed;
+  color: #00000040;
+  background: #f5f5f5;
+  border-color: #d9d9d9;
+  text-shadow: none;
+  box-shadow: none;
+  &:hover{
+    color: #00000040;
+    background: #f5f5f5;
+    border-color: #d9d9d9;
+  }
+}
+
+.@{popupPrefix}-round{
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.@{popupPrefix}-mini{
+  padding: 4px 12px;
+  font-size: 12px;
+}
+
+.@{popupPrefix}-normal{
+  padding: 6px 18px;
+  font-size: 16px;
+}
+
+.@{popupPrefix}-big{
+  padding: 8px 24px;
+  font-size: 16px;
+}
+
+.@{popupPrefix}-circle-big{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0;
+  .iconfont{
+    font-size: 28px;
+  }
+}
+
+.@{popupPrefix}-circle-normal{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0;
+  .iconfont{
+    font-size: 24px;
+  }
+}
+
+.@{popupPrefix}-circle-mini{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0;
+  .iconfont{
+    font-size: 18px;
+  }
+}

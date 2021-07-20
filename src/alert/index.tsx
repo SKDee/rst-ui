@@ -1,5 +1,6 @@
 import React from 'react';
 import t from 'prop-types';
+import './style'
 
 export interface AlertProps {
   /**
@@ -11,7 +12,7 @@ export interface AlertProps {
 
 export type KindMap = Record<Required<AlertProps>['kind'], string>;
 
-const prefixCls = 'happy-alert';
+const prefixCls = 'happy-alert-a';
 
 const kinds: KindMap = {
   info: '#5352ED',
